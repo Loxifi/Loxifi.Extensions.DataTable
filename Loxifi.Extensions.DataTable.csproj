@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<PackageProjectUrl>http://loxifi.com/Projects/Loxifi.Extensions.DataTable</PackageProjectUrl>
+		<Version>0.1.0</Version>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageIcon>Properties\Icon.png</PackageIcon>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>
+			A small collection of extension methods for the DataTable class. Adds methods to fill DataTable from an IEnumerable, AddOrUpdate column values, convert to HTML, and more
+		</Description>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseFile>Properties\License.txt</PackageLicenseFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Loxifi/Loxifi.Extensions.DataTable.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RootNamespace>Loxifi</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="Properties\License.txt" Pack="true" PackagePath="Properties\License.txt" />
+		<None Include="Properties\Icon.png" Pack="true" PackagePath="Properties\Icon.png" />
+		<None Include="README.md" Pack="true" PackagePath="README.md" />
+	</ItemGroup>
+</Project>
